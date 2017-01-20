@@ -257,6 +257,7 @@ function countDown(secs,elem) {
     }
 }
 xhr.send(vars);
+        document.cookie = "username=<?php echo $_SESSION['per_q_limit'];?>";
        // document.getElementById('counter_status').innerHTML = "";
         //document.getElementById('btnSpan').innerHTML = '<h2>Times Up!</h2>';
         //document.getElementById('btnSpan').innerHTML += '<a href="quiz.php?question=<?php echo $next; ?>">Click here now</a>';
@@ -289,7 +290,7 @@ hr.open("GET", "questions.php?question=" + <?php echo $question; ?>, true);
   hr.send();
 }
 function x() {
-    
+        document.cookie = "username=<?php echo $_SESSION['per_q_limit'];?>";
         var rads = document.getElementsByName("rads");
         for ( var i = 0; i < rads.length; i++ ) {
         if ( rads[i].checked ){
@@ -299,7 +300,7 @@ function x() {
     }
 }
 function post_answer(){
-    //localStorage.setItem('highscore', <?php echo Session::get("per_q_limit");?>);
+   document.cookie = "username=<?php echo $_SESSION['per_q_limit'];?>";
     var p = new XMLHttpRequest();
             var id = document.getElementById('qid').value;
            // document.write(id);
@@ -356,7 +357,7 @@ function getCookie(name)
 
 
 //time_cnt=localStorage.getItem('highscore');
-		
+        
 countDown(time_cnt,"counter_status");
 </script>
 <?php include 'inc/footer.php'; ?>
