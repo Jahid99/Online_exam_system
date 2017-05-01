@@ -12,8 +12,8 @@ $get_exam_id = Session::get("userId");
       }else{
       $stmt = $db->link->prepare("UPDATE exam_count 
           SET topic_name = ?
-          WHERE sir_exam_id=?");
-      $stmt->bind_param("si",$topic_name,$get_exam_id);
+          WHERE id=?");
+      $stmt->bind_param("si",$topic_name,$editexam);
       $db->update($stmt);
       unset($_SESSION['topic_name']);
          Session::set("message","Exam name updated succesfully!!!");
