@@ -24,9 +24,9 @@ This is an online exam system i have designed and developed using PHP OOP and AJ
 
 ![1](https://user-images.githubusercontent.com/15046800/67514916-74c89680-f6bf-11e9-8335-d1580c3cd74e.png)
 
-![3](https://user-images.githubusercontent.com/15046800/67514911-73976980-f6bf-11e9-8547-3ec85391049e.png)
-
 7. Then you must have to adjust the starting time and ending time of the exam.Student will not be able to perticipate in the exam before the starting time.They will not be able to perticipate in the exam after the ending time.
+
+![3](https://user-images.githubusercontent.com/15046800/67514911-73976980-f6bf-11e9-8547-3ec85391049e.png)
 
 8. After the end of the exam go to the 'ASSIGN NUMBER OF STUDENTS FOR THIS EXAM' option and there you can publish the result to the students.Then the students will be able see their marks as well as their competitors marks.They will also see the answers of the questions.
 
