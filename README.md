@@ -40,6 +40,8 @@ This is an online exam system i have designed and developed using PHP OOP and AJ
 
 3. If you do not give answer to a question within the given time.You will get zero marks for that question.
 
+![4](https://user-images.githubusercontent.com/15046800/67514913-74300000-f6bf-11e9-9bab-7f55d8f14a49.png)
+
 4. Don't try to cheat by changing the url or trying to go back when the exam is running.Your account will get suspension.
 
-![4](https://user-images.githubusercontent.com/15046800/67514913-74300000-f6bf-11e9-9bab-7f55d8f14a49.png)
+
