@@ -1,4 +1,7 @@
 # Online_exam_system
+
+![PHP1_lightbox](https://user-images.githubusercontent.com/15046800/67469340-dd872300-f66d-11e9-9fe2-b6c2a238d7ba.jpg)
+
 This is an online exam system i have designed and developed using PHP OOP and AJAX.
 
 #For the test creators
