@@ -20,7 +20,7 @@ This is an online exam system i have designed and developed using PHP OOP and AJ
 
 ![6](https://user-images.githubusercontent.com/15046800/67514915-74c89680-f6bf-11e9-864f-e33cc33163cc.png)
 
-6. Then you have set questions for the exam.
+6. Then you have to set questions for the exam.
 
 ![1](https://user-images.githubusercontent.com/15046800/67514916-74c89680-f6bf-11e9-8335-d1580c3cd74e.png)
 
